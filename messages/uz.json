@@ -1,0 +1,468 @@
+{
+  "home": {
+    "title": "Salom, jigar!",
+    "cta": "Boshlash"
+  },
+  "AuthModal": {
+    "title": "Kirish yoki ro‘yxatdan o‘tish",
+    "phoneLabel": "Telefon raqam",
+    "fullNamePlaceholder": "Ismingizni kiriting",
+    "haveAccount": "Akauntingiz bormi?",
+    "requestCode": "Kodini olish",
+    "loading": "Yuborilmoqda...",
+    "otpSent": "Telefon raqamga OTP yuborildi",
+    "otpPlaceholder": "SMS kod",
+    "otpLabel": "SMS kod",
+    "changePhone": "Raqamni o‘zgartirish",
+    "verifying": "Tasdiqlanmoqda...",
+    "verify": "Tasdiqlash",
+    "codeSent": "Kod yuborildi",
+    "loginSuccess": "Muvaffaqiyatli kirildi",
+    "signupSuccess": "Ro‘yxatdan o‘tish muvaffaqiyatli",
+    "invalidResponse": "Serverdan noto‘g‘ri javob. Qayta urinib ko‘ring.",
+    "errorOccurred": "Xatolik yuz berdi. Qayta urinib ko‘ring.",
+    "switchToSignup": "Akaunt topilmadi, ro‘yxatdan o‘ting.",
+    "switchToLogin": "Akaunt allaqachon mavjud. Kirishga o‘tkazildi."
+  },
+  "header": {
+    "home": "Bosh sahifa",
+    "menu": "Menyu",
+    "products": "Mahsulotlar",
+    "brands": "Brendlar",
+    "contact": "Aloqa",
+    "about": "Biz haqimizda",
+    "deliveryPayment": "Yetkazib berish va to‘lov",
+    "sales": "Aksiya",
+    "news": "Yangiliklar",
+    "categories": "Kategoriyalar",
+    "search": "Qidirish",
+    "help": "Yordam kerakmi?",
+    "login": "Kirish",
+    "register": "Ro‘yxatdan o‘tish",
+    "favorites": "Sevimlilar",
+    "cart": "Savat",
+    "close": "Yopish",
+    "mobileMenu": "Mobil menyu",
+    "allCategories": "Barcha kategoriyalar",
+    "profile": "Profil"
+  },
+  "Checkout": {
+    "title": "Buyurtmani rasmiylashtirish",
+    "hint": "Manzil va to‘lov usulini tanlang, so‘ng buyurtmani tasdiqlang.",
+    "currency": "So'm",
+    "cartSidebarTitle": "Savat",
+    "fields": {
+      "district": "Tuman (ixtiyoriy)",
+      "mapButton": "Xaritadan tanlash",
+      "mapButtonAria": "Xaritadan manzil tanlash tugmasi",
+      "address": "Manzil",
+      "gps": "GPS",
+      "floor": "Qavat (ixtiyoriy)",
+      "sum": "Yetkazib berish narxi"
+    },
+    "placeholders": {
+      "select": "Tanlang",
+      "address": "Ko‘cha, uy, xonadon...",
+      "floor": "Masalan: 3-qavat"
+    },
+    "warning": {
+      "onlyTashkent": "Hozircha {b}Toshkent shahri{b} bo‘ylab yetkazib beramiz."
+    },
+    "payment": {
+      "title": "To‘lov usuli",
+      "card": "Karta orqali",
+      "cash": "Naqd",
+      "cardProviders": "Kartalar",
+      "payWith": "{provider} orqali to‘lash",
+      "banner": "Naqd to‘lov — kuryerga topshirish paytida."
+    },
+    "summary": {
+      "productsCount": "Mahsulotlar: {count} ta",
+      "delivery": "Yetkazib berish",
+      "total": "Jami",
+      "payMethod": "To‘lov turi"
+    },
+    "success": {
+      "title": "Buyurtma muvaffaqiyatli amalga oshirildi",
+      "toProfile": "Buyurtma holatini profil sahifasidan ko‘ring",
+      "continue": "Xaridni davom ettirish",
+      "detailsTitle": "Buyurtma tafsilotlari",
+      "addressTitle": "Yetkazilish manzili",
+      "loading": "Yuklanmoqda...",
+      "orderId": "ID: {id}",
+      "details": {
+        "title": "Buyurtma tafsilotlari:",
+        "productsCount": "Mahsulotlar: {count} ta",
+        "line": "{name} × {qty} = {sum}",
+        "total": "Jami: {sum}",
+        "paymentMethod": "To‘lov turi: {method}",
+        "unknownProduct": "Mahsulot"
+      },
+      "address": {
+        "title": "Yetkazilish manzili:"
+      },
+      "cta": {
+        "viewInProfile": "Buyurtma holatini profil sahifasi orqali habar olishingiz mumkin"
+      }
+    },
+    "placeOrder": {
+      "invalid": "Iltimos, manzilni kiriting yoki xaritadan nuqtani tanlang.",
+      "noPhone": "Telefon raqamingiz kiritilmagan.",
+      "error": "Buyurtma yuborishda xatolik yuz berdi.",
+      "placing": "Buyurtma yuborilmoqda…"
+    }
+  },
+  "CartSidebar": {
+    "title": "Savat",
+    "itemsCount": "{count, number} ta",
+    "unitPriceLabel": "Narxi:",
+    "lineTotal": "Jami:",
+    "detailsTitle": "Buyurtma tafsilotlari:",
+    "productsLine": "Mahsulotlar: {count} ta",
+    "deliveryLine": "Yetkazib berish : {price} {currency}",
+    "totalLabel": "Jami:",
+    "currencyShort": "so'm",
+    "currencyLong": "So’m",
+    "productFallback": "Mahsulot",
+    "placeOrder": "Buyurtma Berish"
+  },
+  "ProductCard": {
+    "addToCart": "Savatga qo'shish",
+    "sold": "Sotildi",
+    "decreaseQuantity": "Miqdorni kamaytirish",
+    "increaseQuantity": "Miqdorni oshirish",
+    "addToFavorites": "Sevimlilarga qoʻshish",
+    "removeFromFavorites": "Sevimlilardan olib tashlash",
+    "currency": "So'm"
+  },
+  "PromoSections": {
+    "leto": {
+      "title": "Qirg'iziston Leto",
+      "desc": "Maxsus takliflar va chegirmalar",
+      "badge": "LETO"
+    },
+    "moloko": {
+      "title": "Moloko Reka",
+      "desc": "Sifatli sut mahsulotlari",
+      "badge": "MOLOKO"
+    },
+    "cta": "Batafsil"
+  },
+  "cart": {
+    "title": "Savat",
+    "selectAll": "Hammasini Belgilash",
+    "lineTotal": "Jami:",
+    "remove": "Oʻchirish",
+    "summaryTitle": "Buyurtma Haqida:",
+    "productsCount": "Mahsulotlar: {count} ta",
+    "total": "Jami:",
+    "checkout": "Buyurtmaga O‘tish",
+    "backToProducts": "Mahsulotlarga qaytish",
+    "empty": "Savat bo'sh",
+    "currency": "So'm"
+  },
+  "MobileAppSection": {
+    "title": "Telegram Orqali Harid Qilish Imkoniyati!",
+    "subtitle": "Telegram orqali savdo qilish oson va bepul, kanal yoki bot orqali mahsulotlaringizni reklama qilishingiz mumkin.To‘lovlar Click, Payme yoki naqd ko‘rinishida bo‘lishi mumkin, yetkazib berish esa kuryer yoki pochta orqali amalga oshiriladi.Mahsulotlarga chiroyli rasm va aniq tavsif qo‘ying, chegirmalar va aksiyalar orqali auditoriyani jalb qiling. Savdoni avtomatlashtirish uchun Telegram botlardan foydalanish foydali bo‘ladi.",
+    "ctaLabel": "Telegram botiga o‘tish",
+    "ctaAria": "Telegram botini ochish",
+    "ctaHref": "#",
+    "googlePlayAlt": "Google Play orqali yuklab oling",
+    "appStoreAlt": "App Store orqali yuklab oling",
+    "googlePlayAria": "Ilovani Google Play’dan yuklab olish",
+    "appStoreAria": "Ilovani App Store’dan yuklab olish",
+    "googlePlayHref": "#",
+    "appStoreHref": "#"
+  },
+  "AboutPage": {
+    "meta": {
+      "title": "Biz haqimizda",
+      "description": "SBM Central Group haqida ma’lumot"
+    },
+    "title": "Biz Haqimizda",
+    "backHome": "Bosh sahifa",
+    "p1": "2019-yildan buyon “SBM Central Group” MChJ yirik, o‘rta va kichik ulgurji oziq-ovqat mahsulotlarini yetkazib berish va sotish bilan muvaffaqiyatli shug‘ullanib kelmoqda. Professional jamoa va kompaniya rahbariyati tufayli bizning distributsiya tarmog‘imiz faol rivojlanmoqda, hozirda butun O‘zbekiston bo‘ylab 10 000 dan ortiq savdo nuqtalarini qamrab oladi. Tovarlar sotilayotgan joylarda saqlash talablariga muvofiq jihozlangan omborlarda saqlanadi.",
+    "p2": "Logistika xizmati kuniga 200 tagacha buyurtmani qayta ishlaydi, ularni saqlash va keyingi tashishni tashkil qiladi. Yildan-yilga kengayib borayotgan assortimentlar ro‘yxati bizga ham yetkazib beruvchilar, ham xaridorlar uchun ishonchli sherik bo‘lish imkonini beradi.",
+    "p3": "Mahsulotlar assortimentlari va import mamlakatlar ro‘yxati o‘sib borayotgan oziq-ovqat bozoridagi tendensiyalar va innovatsiyalarni hisobga olgan holda muntazam yangilanadi va kengaytiriladi.",
+    "principle": "Faqat tabiiy va organik mahsulotlarning ishonchli yetkazib beruvchilari bilan ishlang"
+  },
+  "ProductsPage": {
+    "meta": {
+      "title": "Mahsulotlar",
+      "description": "Kategoriyalar, brendlar va narx bo‘yicha filtrlab, kerakli mahsulotni tez toping."
+    },
+    "title": "Mahsulotlar",
+    "filter": "Filtr",
+    "sort": "Saralash",
+    "filtersTitle": "Filtrlar",
+    "search": "Qidirish",
+    "searchPlaceholder": "Mahsulot qidirish...",
+    "apply": "Qo‘llash",
+    "clear": "Tozalash",
+    "close": "Yopish",
+    "empty": "Siz tanlagan filtrlar bo‘yicha mahsulot topilmadi.",
+    "tabs": {
+      "all": "Barchasi",
+      "new": "Yangi",
+      "topRating": "Reytingi yuqori",
+      "liked": "Sevimlilar",
+      "sale": "Chegirma"
+    },
+    "filters": {
+      "categoriesTitle": "Kategoriya",
+      "brandsTitle": "Brend",
+      "priceTitle": "Narx",
+      "min": "Min",
+      "max": "Max"
+    }
+  },
+  "ProductPage": {
+    "meta": {
+      "notFoundTitle": "Mahsulot topilmadi"
+    },
+    "specs": "Xususiyatlari",
+    "breadcrumbs": {
+      "home": "Bosh sahifa",
+      "products": "Mahsulotlar"
+    },
+    "tab":{
+      "composition": "Tarkibi",
+      "about": "Mahsulot haqida"
+    },
+    "notFound": "Kechirasiz, mahsulot topilmadi.",
+    "backToProducts": "Mahsulotlar sahifasiga qaytish",
+    "brand": "Brend",
+    "country": "Mamlakat",
+    "weight": "Og'irligi",
+    "description": "Tavsif",
+    "nutritionTitle": "Ozuqaviy qiymati",
+    "nutritionSample": "Energiya: 65 kkal, Yog': 3.2 g, Oqsil: 3.0 g, Uglevod: 4.7 g (100 g uchun).",
+    "price": "Narx",
+    "quantity": "Soni",
+    "rating": "Reyting",
+    "addToCart": "Savatga Qo‘shish",
+    "currencySuffix": "So'm",
+    "similarTitle": "O‘xshash Mahsulotlar",
+    "newTitle": "Yangi Mahsulotlar",
+    "seeAll": "Barchasini ko‘rish",
+    "composition": "Tarkibi",
+    "comp": {
+      "amount": "Miqdori",
+      "protein": "Oqsil",
+      "fat": "Yogʻ",
+      "carb": "Uglevod",
+      "energy": "Energiya qiymati"
+    },
+    "aboutTitle": "Mahsulot haqida",
+    "packTitle": "Qadoqlanishi",
+    "packText": "Tetra Pak yoki shunga oʻxshash aseptik qadoqlarda.",
+    "storageTitle": "Saqlash shartlari",
+    "storageText": "25°C gacha bo‘lgan haroratda, quyosh nurlaridan himoyalangan joyda saqlang.",
+    "noDescription": "Tavsif mavjud emas",
+    "unitPriceNote": "Birlik narxi",
+    "decrease": "Kamaytirish",
+    "increase": "Oshirish",
+    "goToCart": "Savatga o‘tish",
+    "like": "Yoqadi",
+    "ratePrompt": "Mahsulotni baholang"
+  },
+  "WishlistPage": {
+    "title": "Sizga Yoqqan Mahsulotlar",
+    "backAria": "Ortga qaytish",
+    "clearAll": "Hammasini tozalash",
+    "empty": "Ro'yxatda hali mahsulot yo'q.",
+    "goShop": "Mahsulotlarni ko'rish",
+    "showMore": "Yana ko'rsatish"
+  },
+  "BrandPage": {
+    "title": "Brend sahifasi",
+    "about": "Brend haqida",
+    "productsTitle": "Brend mahsulotlari",
+    "country": "Mamlakati",
+    "founded": "Tashkil topgan yili",
+    "website": "Rasmiy sayt",
+    "contactsTitle": "Kontaktlar",
+    "backHome": "Bosh sahifa",
+    "brandProductsTitle": "Brend mahsulotlari",
+    "breadcrumbs": {
+      "home": "Bosh sahifa",
+      "brands": "Brendlar"
+    },
+    "noProducts": "Bu brendga tegishli mahsulotlar topilmadi.",
+    "backToBrands": "Brendlar ro‘yxatiga qaytish",
+    "meta": {
+      "title": "{brand} — brend sahifasi",
+      "description": "{brand} brendi mahsulotlari, tarix va aloqa maʼlumotlari.",
+      "notFoundTitle": "Brend topilmadi"
+    },
+    "notFound": "Kechirasiz, brend topilmadi."
+  },
+  "footerNav": {
+    "ariaBottomNav": "Pastki navigatsiya",
+    "home": "Bosh sahifa",
+    "cart": "Savat",
+    "favorites": "Sevimlilar",
+    "account": "Profil",
+    "products": "Mahsulotlar"
+  },
+  "footer": {
+    "sitePages": "Sayt sahifalari",
+    "aboutUs": "Biz haqimizda",
+    "contact": "Kontakt",
+    "phone": "Telefon raqami",
+    "email": "E-mail",
+    "address": "Manzil",
+    "aboutCompany": "Korxona haqida",
+    "ourLocations": "Bizning manzillarimiz",
+    "home": "Bosh sahifa",
+    "products": "Mahsulotlar",
+    "brands": "Brendlar",
+    "about": "Biz haqimizda",
+    "deliveryPayment": "Yetkazib berish va to‘lov",
+    "sales": "Aksiya",
+    "news": "Yangiliklar"
+  },
+  "BrandsSection": {
+    "title": "Brendlar",
+    "subtitle": "Ishtirokchi brendlarimiz",
+    "cta": "Barchasini ko‘rish",
+    "viewAllAria": "Barcha brendlarni ko‘rish",
+    "viewAll": "Hammasi",
+    "prevAria": "Oldingi",
+    "nextAria": "Keyingi",
+    "empty": "Brendlar topilmadi"
+  },
+  "ProductsSection": {
+    "title": "Mahsulotlar",
+    "subtitle": "Katalogdan tanlang",
+    "cta": "Batafsil",
+    "viewAllAria": "Barcha mahsulotlarni ko‘rish",
+    "viewAll": "Hammasi",
+    "prevAria": "Oldingi slayd",
+    "nextAria": "Keyingi slayd"
+  },
+  "DiscountProductsSection": {
+    "title": "Chegirmadagi mahsulotlar",
+    "subtitle": "Fursatdan foydalaning",
+    "cta": "Barchasini ko‘rish",
+    "viewAllAria": "Chegirmadagi mahsulotlarning barchasini ko‘rish",
+    "viewAll": "Hammasi",
+    "prevAria": "Oldingi slayd",
+    "nextAria": "Keyingi slayd"
+  },
+  "SpecialOffersSection": {
+    "title": "Maxsus takliflar",
+    "productsTitle": "Aksiyadagi mahsulotlar",
+    "subtitle": "Siz uchun tanlovlar",
+    "cta": "Batafsil",
+    "viewAllAria": "Maxsus takliflarning barchasini ko‘rish",
+    "viewAll": "Hammasi",
+    "prevAria": "Oldingi slayd",
+    "nextAria": "Keyingi slayd",
+    "emptyProducts": "Maxsus takliflar mavjud emas"
+  },
+  "NewProductsSection": {
+    "title": "Yangi mahsulotlar",
+    "subtitle": "Yaqinda qo‘shilganlar",
+    "cta": "Hammasini ko‘rish",
+    "viewAllAria": "Barcha yangi mahsulotlarni ko‘rish",
+    "viewAll": "Hammasi",
+    "prevAria": "Oldingi slayd",
+    "nextAria": "Keyingi slayd"
+  },
+  "Profile": {
+    "title": "Profil",
+    "edit": "Tahrirlash",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "logout": "Chiqish",
+    "personalInfo": "Shaxsiy ma’lumotlar",
+    "name": "Ism",
+    "email": "Email",
+    "phone": "Telefon",
+    "language": "Til",
+    "address": "Toshkent sh. Yakkasaroy tumani Yusuf-Xamadoniy ko‘chasi, 86-uy",
+    "orders": "Buyurtmalar tarixi",
+    "security": "Xavfsizlik",
+    "changePassword": "Parolni almashtirish",
+    "currentPassword": "Joriy parol",
+    "newPassword": "Yangi parol",
+    "confirmPassword": "Parolni tasdiqlang",
+    "updateSuccess": "Profil muvaffaqiyatli yangilandi",
+    "updateError": "Yangilashda xatolik yuz berdi",
+    "ariaEdit": "Profilni tahrirlash",
+    "ariaSave": "O‘zgarishlarni saqlash",
+    "ariaCancel": "Tahrirni bekor qilish",
+    "deleteAccount": "Akkauntni o‘chirish",
+    "notLoggedIn": "Siz tizimga kirmagansiz"
+  },
+  "Delivery": {
+    "title": "Yetkazib berish va to‘lov",
+    "subtitle": "Qulay va ishonchli xizmat",
+    "description": "Buyurtmangizni tez va qulay tarzdaToshkent shahri bo‘yicha yetkazib beramiz. To‘lov faqat online",
+    "fast": "Tez yetkazib berish",
+    "fastDesc": "Shahar bo‘ylab 24 soat ichida, viloyatlarga 1–3 kun.",
+    "payment": {
+      "title": "To‘lov usullari",
+      "method1": "Karta (UZCARD/HUMO)",
+      "method2": "Click, Payme",
+      "method3": "Buyurtma tasdiqlangandan so‘ng to‘lovni amalga oshirishingiz mumkin",
+      "methods": [
+        "Karta (UZCARD/HUMO)",
+        "Click",
+        "Payme",
+        "Naqd"
+      ],
+      "paymentDesc": "Naqd, karta yoki onlayn to‘lov."
+    },
+    "return": "Qaytarish siyosati",
+    "returnDesc": "Mahsulotni 7 kun ichida almashtirish/qaytarish mumkin.",
+    "delivery": {
+      "title": "Yetkazib berish tartibi",
+      "city": "Faqat Toshkent shahri doirasida",
+      "price": "Narxi: 15 000 so‘m",
+      "time": "Yetkazish muddati 1 ish kuni ichida",
+      "hours": "Ish vaqti: 10: 00 - 20:00"
+    },
+    "form": {
+      "phonePlaceholder": "Telefon raqamingizni kiriting",
+      "emailPlaceholder": "Manzilingizni kiriting",
+      "messagePlaceholder": "Murojaatdan maqsadingizni",
+      "submitLabel": "Yuborish",
+      "successLabel": "Xabar yuborildi",
+      "errorLabel": "Yuborishda xatolik"
+    }
+  },
+  "ContactPage": {
+    "title": "Kontaktlar",
+    "backHome": "Bosh sahifa",
+    "address": "Manzil",
+    "meta": {
+      "title": "Kontaktlar",
+      "description": "Biz bilan bog‘laning: manzil, telefon va fikr qoldirish shakli."
+    },
+    "form": {
+      "title": "Biz bilan bog‘laning",
+      "emailPlaceholder": "Sizning e-mail",
+      "phonePlaceholder": "Telefon raqamingiz",
+      "messagePlaceholder": "Xabaringiz matni",
+      "submit": "Yuborish",
+      "success": "Xabar yuborildi",
+      "error": "Yuborishda xatolik"
+    }
+  },
+  "news": {
+    "title": "Yangiliklar",
+    "postedAt": "E'lon qilingan sana: {date}"
+  },
+  "MapPicker": {
+    "title": "Xaritadan manzilni tanlang",
+    "close": "Yopish",
+    "clickHint": "Xaritadan nuqta bosing",
+    "selectedPoint": "Tanlangan nuqta",
+    "inside": "Toshkent ichida",
+    "outside": "Toshkentdan tashqarida — tasdiqlab bo‘lmaydi",
+    "outsideNote": "Diqqat: Yetkazib berish faqat Toshkent shahri bo‘yicha. Iltimos, ruxsat etilgan hudud ichidan nuqta tanlang.",
+    "confirm": "Tasdiqlash"
+  }
+}
